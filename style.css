@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+#buton{
+    border-color: aqua;
+    border-style:double;
+    border-radius: 15px;
+    color: rgb(107, 107, 251);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 20px;
+}
